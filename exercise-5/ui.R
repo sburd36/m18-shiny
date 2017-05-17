@@ -17,13 +17,13 @@ shinyUI(fluidPage(
   # inputIDs's have been provided
   sidebarLayout(
     sidebarPanel(
-      selectInput(inputID = "sex", label = "Sex", choices = c("Men", "Women", "Both"), selected = "Both"),
+      selectInput(inputId = "sex", label = "Sex", choices = c("Men", "Women", "Both"), selected = "Both"),
       #inputID = sex
       
       
       #selectInput for Agree or Disagree
       #inputID = thoughts
-      selectInput(inputID = "thoughts", label = "Who:", choices = c("Agree", "Disagree"), selected = "Agree")
+      selectInput(inputId = "thoughts", label = "Who:", choices = c("Agree", "Disagree"), selected = "Agree")
       
     ),
     
